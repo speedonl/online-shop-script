@@ -77,7 +77,7 @@ if( empty($errors)){
 $subject = 'Ezelstal shop bestelling'; /* your desired subject to be displayed on the sent email */
 $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
-$headers .= "\r\n" . 'BCC:egbert@egbertkappert.com' . "\r\n"; /*20160225 bijgevoegd, niet getest!!*/
+$headers .= "\r\n" . 'BCC:ENTER_EMAIL' . "\r\n"; /*20160225 bijgevoegd, voor BCC!!*/
 mail($to, $subject, $body, $headers); /* building the mail() function */
 header('Location: order-form-thank-you.html'.$QUERYSTING);/* declaring the page to redirect if the mail is sent successfully */
 }
