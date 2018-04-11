@@ -74,7 +74,7 @@ $email_address))
 }
 /*einde error controle*/
 if( empty($errors)){
-$subject = 'Ezelstal shop bestelling'; /* your desired subject to be displayed on the sent email */
+$subject = 'Company shop bestelling'; /* your desired subject to be displayed on the sent email */
 $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
 $headers .= "\r\n" . 'BCC:ENTER_EMAIL' . "\r\n"; /*20160225 bijgevoegd, voor BCC!!*/
@@ -122,7 +122,7 @@ else {
 			</div>
 			<div class="large-centered large-6 columns">
 			<img class="animated bounce" src="../img/ezel.png" alt="">
-			<a class="button success" href="http://www.ezelstal.net/shop/index.html">Terug naar de shop!</a>
+			<a class="button success" href="http://www.company.net/shop/index.html">Terug naar de shop!</a>
 		</div>	
 		</div>
 </body>
